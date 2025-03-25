@@ -1,0 +1,51 @@
+#baner {
+    background-color: #009999;
+    color: white;
+    text-align: center;
+    height: 80px;
+}
+#panel1, #panel2, #panel3, #panel4 {
+    font-family: Arial;
+    background-color: #009999;
+    color: white;
+    text-align: center;
+    width: 25%;
+    height: 150px;
+    float: left;
+}
+#left {
+    clear: both;
+}
+#left, #center, #right {
+    float: left;
+    height: 600px;
+}
+#left, #right {
+    background-color: #669999;
+    width: 30%;
+
+}
+#center {
+    background-color: #99CCCC;
+    width: 40%;
+    text-align: center;
+}
+#footer {
+    clear: both;
+    background-color: #009999;
+    color: white;
+    text-align: right;
+}
+table {
+    border: solid 1px green;
+}
+table td {
+    border: solid 1px green;
+    text-align: center;
+}
+input[type="button"] {
+    border: none;
+    margin: 10px;
+    background-color: green;
+    color: white;
+}
