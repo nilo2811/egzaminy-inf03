@@ -1,0 +1,4 @@
+1. select id,cena,cel from wycieczki where dostepna is NULL;
+2. select podpis,nazwaPliku from zdjecia order by podpis desc;
+3. select podpis,cena,cel from zdjecia,wycieczki where cena < 1200;
+4. delete dataWyjazdu from wycieczki;

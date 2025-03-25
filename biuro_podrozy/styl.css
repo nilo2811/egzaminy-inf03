@@ -1,0 +1,67 @@
+body {
+    font-family: Tahoma, sans-serif;
+}
+#baner {
+    background-color: rgb(107, 142, 35);
+    color: white;
+    padding: 3px;
+    text-align: center;
+}
+#dane {
+    background-color: rgb(255, 239, 185);
+    padding: 3px;
+}
+footer {
+    background-color: rgb(107, 142, 35);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+#lewy, #prawy {
+    background-color: rgb(255, 239, 213);
+    width: 27%;
+    height: 550px;
+}
+#lewy {
+    float: left;
+}
+#lewy table {
+    text-transform: none;
+    font-weight: normal;
+}
+#prawy {
+    float: right;
+}
+#srodkowy {
+    background-color: rgb(255, 239, 213);
+    width: 46%;
+    height: 550px;
+    float: left;
+}
+h1,h3 {
+    text-transform: uppercase;
+}
+h3 {
+    text-align: center;
+}
+span {
+    color: green;
+    text-transform: uppercase;
+}
+footer span {
+    color: white;
+    text-transform: uppercase;
+}
+footer p {
+    padding-top: 10px;
+}
+img {
+    height: 90px;
+    padding: 7px;
+}
+img:hover {
+    background-color: rgb(255, 218, 185);
+    opacity: 3px;
+}
